@@ -12,10 +12,37 @@ html {
 	box-sizing: inherit;
 }
 
+/* Vaud Font */
+
+@font-face {
+	font-family: 'vaud_regular';
+	src: url('../fonts/vaud-regular.woff') format('woff'),
+		 url('../fonts/vaud-regular.woff2') format('woff2'),
+		 url('../fonts/vaud-regular.otf') format('otf');
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'vaud_bold';
+	src: url('../fonts/vaud-bold.woff') format('woff'),
+		 url('../fonts/vaud-bold.woff2') format('woff2'),
+		 url('../fonts/vaud-bold.otf') format('otf');
+	font-weight: bold;
+}
+
 /* Estils Atòmics */
 
-.breadcrumbs {
+html {
+	font-family: 'vaud_regular';
+	font-size: 62.5%;
+}
 
+.breadcrumbs {
+	font-size: 1.4rem;
+}
+
+.breadcrumbs li{
+	display: inline-block;
 }
 
 .breadcrumbs > *:first-child:before {
@@ -24,4 +51,10 @@ html {
 
 .breadcrumbs > *:before {
 	content: "/";
+	color: black;
+}
+
+.breadcrumbs > *:last-child {
+	color: orange;
+	font-weight: bold;
 }
