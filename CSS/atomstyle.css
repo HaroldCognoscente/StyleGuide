@@ -35,6 +35,12 @@ html {
 html {
 	font-family: 'vaud_regular';
 	font-size: 62.5%;
+	padding: 1.5rem;
+}
+
+h2 {
+	color: #575756;
+	font-size: 2.4rem;
 }
 
 a {
@@ -71,12 +77,15 @@ ul.breadcrumbs > *:last-child {
 }
 
 ul.paginacio {
-	font-size: 2rem;
+	font-size: 1.8rem;
 	padding: 3rem;
 }
 
 ul.paginacio li {
 	display: inline-block;
+}
+
+ul.paginacio li a {
 	font-family: 'vaud_bold';
 	padding: 0rem 1rem;
 	height: 30px;
@@ -92,6 +101,5 @@ ul.paginacio li.actual {
 
 ul.paginacio li a:hover {
 	border-radius: 1000px;
-	padding: 0rem 1rem;
 	background-color: #F2914B;
 }
