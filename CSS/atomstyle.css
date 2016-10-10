@@ -11,3 +11,17 @@ html {
 	-moz-box-sizing: inherit;
 	box-sizing: inherit;
 }
+
+/* Estils Atòmics */
+
+.breadcrumbs {
+
+}
+
+.breadcrumbs > *:first-child:before {
+	content: " ";
+}
+
+.breadcrumbs > *:before {
+	content: "/";
+}
