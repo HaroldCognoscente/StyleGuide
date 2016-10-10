@@ -37,24 +37,61 @@ html {
 	font-size: 62.5%;
 }
 
-.breadcrumbs {
-	font-size: 1.4rem;
+a {
+	color: inherit;
+	text-decoration: none;
+	line-height: inherit;
 }
 
-.breadcrumbs li{
+ul.breadcrumbs {
+	font-size: 1.4rem;
+	padding: 3rem;
+}
+
+ul.breadcrumbs li{
 	display: inline-block;
 }
 
-.breadcrumbs > *:first-child:before {
+ul.breadcrumbs > * a:hover {
+	color: #DA2D26;
+}
+
+ul.breadcrumbs > *:first-child:before {
 	content: " ";
 }
 
-.breadcrumbs > *:before {
+ul.breadcrumbs > *:before {
 	content: "/";
 	color: black;
 }
 
-.breadcrumbs > *:last-child {
-	color: orange;
-	font-weight: bold;
+ul.breadcrumbs > *:last-child {
+	color: #F2914B;
+	font-family: 'vaud_bold';
+}
+
+ul.paginacio {
+	font-size: 2rem;
+	padding: 3rem;
+}
+
+ul.paginacio li {
+	display: inline-block;
+	font-family: 'vaud_bold';
+	padding: 0rem 1rem;
+	height: 30px;
+	text-align: center;
+	line-height: 3.1rem;
+}
+
+ul.paginacio li.actual {
+	border-radius: 1000px;
+	background-color: #DA2D26;
+	color: white;
+}
+
+ul.paginacio li a:hover {
+	border-radius: 1000px;
+	padding: 0rem 1rem;
+	background-color: #F2914B;
 }
