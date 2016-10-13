@@ -81,6 +81,7 @@ td {
 }
 
 ul.breadcrumbs {
+		list-style: none;
     font-size: 1.4rem;
 }
 
@@ -109,6 +110,7 @@ ul.breadcrumbs > *:last-child {
 ul.paginacio {
     font-size: 1.8rem;
     list-style-position: outside;
+		list-style: none;
 }
 
 ul.paginacio li {
@@ -134,20 +136,20 @@ ul.paginacio li a:hover {
     color: white;
 }
 
-ul {
+.unlist {
 	font-size: 1.6rem;
 	list-style: none;
   padding:0;
   margin:0;
 }
 
-li {
+.unlist li {
 	padding-bottom: 0.7rem;
 	padding-left: 1em;
   text-indent: -.7em;
 }
 
-ul li::before {
+.unlist li::before {
 	content: '• ';
 	font-size: 2.3rem;
 	color: #DA2D26;
