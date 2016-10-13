@@ -144,15 +144,42 @@ ul.paginacio li a:hover {
   display: inline-block;
 }
 
-.alertbox, .warningbox, .successbox, .infobox {
+.errorbox, .warningbox, .successbox, .infobox {
 	font-family: 'vaud_bold';
 	color: white;
 	font-size: 1.4rem;
+	text-align: left;
 	display: inline-block;
-	padding: 1.6rem 1.2rem;
+	padding: 1.6rem 6rem 1.6rem 1.8rem;
+	position: relative;
 }
 
-.alertbox {
+.erroricon, .warningicon, .successicon, .infoicon {
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	position: absolute;
+	top: 1rem;
+	right: 1.6rem;
+}
+
+.erroricon {
+	content: url(../img/error_icon.svg);
+}
+
+.warningicon {
+	content: url(../img/warning_icon.svg);
+}
+
+.successicon {
+	content: url(../img/success_icon.svg);
+}
+
+.infoicon {
+	content: url(../img/info_icon.svg);
+}
+
+.errorbox {
 	background-color: #DA2D26;
 }
 
