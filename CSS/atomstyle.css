@@ -58,7 +58,7 @@ a {
 }
 
 table {
-    border: solid 2px #f2914b;
+    border: solid 1px #f2914b;
 }
 
 table tr:nth-of-type(even) {
