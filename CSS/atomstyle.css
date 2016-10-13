@@ -1,256 +1,263 @@
 /* Universal Box Sizing Heretat (última versió) */
 
 html {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-*, *:before, *:after {
-	-webkit-box-sizing: inherit;
-	-moz-box-sizing: inherit;
-	box-sizing: inherit;
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
 }
+
 
 /* Vaud Font */
 
 @font-face {
-	font-family: 'vaud_regular';
-	src: url('../fonts/vaud-regular.woff') format('woff'),
-		 url('../fonts/vaud-regular.woff2') format('woff2'),
-		 url('../fonts/vaud-regular.otf') format('otf');
-	font-weight: normal;
+    font-family: 'vaud_regular';
+    src: url('../fonts/vaud-regular.woff') format('woff'), url('../fonts/vaud-regular.woff2') format('woff2'), url('../fonts/vaud-regular.otf') format('otf');
+    font-weight: normal;
 }
 
 @font-face {
-	font-family: 'vaud_bold';
-	src: url('../fonts/vaud-bold.woff') format('woff'),
-		 url('../fonts/vaud-bold.woff2') format('woff2'),
-		 url('../fonts/vaud-bold.otf') format('otf');
-	font-weight: bold;
+    font-family: 'vaud_bold';
+    src: url('../fonts/vaud-bold.woff') format('woff'), url('../fonts/vaud-bold.woff2') format('woff2'), url('../fonts/vaud-bold.otf') format('otf');
+    font-weight: bold;
 }
+
 
 /* Estils Atòmics */
 
 html {
-	font-family: 'vaud_regular';
-	font-size: 62.5%;
-	padding: 1.5rem;
+    font-family: 'vaud_regular';
+    font-size: 62.5%;
+    padding: 1.5rem;
 }
 
 h2 {
-	color: #575756;
-	font-size: 2.4rem;
-	padding: 3rem;
+    color: #575756;
+    font-size: 2.4rem;
+    padding: 3rem;
 }
 
 h3 {
-	color: #DA2D26;
-	font-family: 'vaud-bold';
-	font-size: 1.6rem;
-	padding: 3rem;
+    color: #DA2D26;
+    font-family: 'vaud-bold';
+    font-size: 1.6rem;
+    padding: 3rem;
 }
 
 a {
-	color: inherit;
-	text-decoration: none;
-	line-height: inherit;
+    color: inherit;
+    text-decoration: none;
+    line-height: inherit;
 }
 
 table {
-	border: solid 2px #979797;
+    border: solid 2px #f2914b;
 }
 
 table tr:nth-of-type(even) {
-	background: #F5F5F5;
+    background: rgba(242, 145, 75, 0.14);
 }
 
 thead {
-	background-color: #97D35D;
-	color: white;
-	font-family: 'vaud-bold';
+    color: white;
+    font-family: 'vaud-bold';
+    background: #F2914B;
 }
 
-th, td {
-	padding-left: 1rem;
-	line-height: 4rem;
-	font-size: 1.6rem;
-	text-align: left;
+th,
+td {
+    padding-left: 1rem;
+    line-height: 4rem;
+    font-size: 1.6rem;
+    text-align: left;
+    border-right: 1px solid #F2914B;
 }
 
 ul.breadcrumbs {
-	font-size: 1.4rem;
+    font-size: 1.4rem;
 }
 
-ul.breadcrumbs li{
-	display: inline-block;
+ul.breadcrumbs li {
+    display: inline-block;
 }
 
 ul.breadcrumbs > * a:hover {
-	color: #DA2D26;
+    color: #DA2D26;
 }
 
 ul.breadcrumbs > *:first-child:before {
-	content: " ";
+    content: " ";
 }
 
 ul.breadcrumbs > *:before {
-	content: "/";
-	color: black;
+    content: "/";
+    color: black;
 }
 
 ul.breadcrumbs > *:last-child {
-	color: #F2914B;
-	font-family: 'vaud_bold';
+    color: #F2914B;
+    font-family: 'vaud_bold';
 }
 
 ul.paginacio {
-	font-size: 1.8rem;
-	list-style-position: outside;
+    font-size: 1.8rem;
+    list-style-position: outside;
 }
 
 ul.paginacio li {
-	display: inline-block;
+    display: inline-block;
 }
 
 ul.paginacio li a {
-	font-family: 'vaud_bold';
-	padding: 0rem 0.7rem;
-	text-align: center;
-	line-height: 3.1rem;
+    font-family: 'vaud_bold';
+    padding: 0rem 0.7rem;
+    text-align: center;
+    line-height: 3.1rem;
 }
 
 ul.paginacio li.actual a {
-	border-radius: 2000px;
-	background-color: #DA2D26;
-	color: white;
+    border-radius: 2000px;
+    background-color: #DA2D26;
+    color: white;
 }
 
 ul.paginacio li a:hover {
-	border-radius: 2000px;
-	background-color: #F2914B;
-	color: white;
+    border-radius: 2000px;
+    background-color: #F2914B;
+    color: white;
 }
 
 .button {
-	/* Rectangle: */
-	background-image:
-		linear-gradient(36deg, #DA2D26 16%, #F2914B 100%);
-	color: white;
-	padding: 2rem 7rem;
-	font-size: 2.4rem;
-	text-align: center;
-  text-decoration: none;
-  display: inline-block;
+    /* Rectangle: */
+    background-image: linear-gradient(36deg, #DA2D26 16%, #F2914B 100%);
+    color: white;
+    padding: 2rem 7rem;
+    font-size: 2.4rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
 
-.errorbox, .warningbox, .successbox, .infobox {
-	font-family: 'vaud_bold';
-	color: white;
-	font-size: 1.4rem;
-	text-align: left;
-	display: inline-block;
-	padding: 1.6rem 6rem 1.6rem 1.8rem;
-	position: relative;
+.errorbox,
+.warningbox,
+.successbox,
+.infobox {
+    font-family: 'vaud_bold';
+    color: white;
+    font-size: 1.4rem;
+    text-align: left;
+    display: inline-block;
+    padding: 1.6rem 6rem 1.6rem 1.8rem;
+    position: relative;
 }
 
-.erroricon, .warningicon, .successicon, .infoicon {
-	width: 25px;
-	height: 25px;
-	display: inline-block;
-	position: absolute;
-	top: 1rem;
-	right: 1.6rem;
+.erroricon,
+.warningicon,
+.successicon,
+.infoicon {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    position: absolute;
+    top: 1rem;
+    right: 1.6rem;
 }
 
 .erroricon {
-	content: url(../img/error_icon.svg);
+    content: url(../img/error_icon.svg);
 }
 
 .warningicon {
-	content: url(../img/warning_icon.svg);
+    content: url(../img/warning_icon.svg);
 }
 
 .successicon {
-	content: url(../img/success_icon.svg);
+    content: url(../img/success_icon.svg);
 }
 
 .infoicon {
-	content: url(../img/info_icon.svg);
+    content: url(../img/info_icon.svg);
 }
 
 .errorbox {
-	background-color: #DA2D26;
+    background-color: #DA2D26;
 }
 
 .warningbox {
-	background-color: #F2914B;
+    background-color: #F2914B;
 }
 
 .successbox {
-	background-color: #97D35D;
+    background-color: #97D35D;
 }
 
 .infobox {
-	background-color: #26B2DA;
+    background-color: #26B2DA;
 }
 
-.infopanel, .linkpanel, .photopanel {
-	background: #FCFCFC;
-	box-shadow: 0px 2px 4px 0px #C6C6C6;
-	width: 295px;
-	height: 215px;
-	position: relative;
-	display: inline-block;
+.infopanel,
+.linkpanel,
+.photopanel {
+    background: #FCFCFC;
+    box-shadow: 0px 2px 4px 0px #C6C6C6;
+    width: 295px;
+    height: 215px;
+    position: relative;
+    display: inline-block;
 }
 
 .infopanel a {
-	padding: 2rem 2rem 0 2rem;
-	display: block;
-	font-family: 'vaud_bold';
-	font-size: 2rem;
-	color: #DA2D26;
+    padding: 2rem 2rem 0 2rem;
+    display: block;
+    font-family: 'vaud_bold';
+    font-size: 2rem;
+    color: #DA2D26;
 }
 
 .infopanel p {
-	font-size: 1.4rem;
-	line-height: 1.7rem;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	padding: 0 2rem 2rem 2rem;
-	color: #575756;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0 2rem 2rem 2rem;
+    color: #575756;
 }
 
 .linkpanel {
-	background-image:
-		linear-gradient(36deg, #DA2D26 16%, #F2914B 100%);
-	float: left;
+    background-image: linear-gradient(36deg, #DA2D26 16%, #F2914B 100%);
+    float: left;
 }
 
 .linkpanel a {
-	font-size: 3.6rem;
-	font-family: 'vaud_bold';
-	color: white;
-	padding: 2rem 2rem 0 2rem;
-	display: block;
+    font-size: 3.6rem;
+    font-family: 'vaud_bold';
+    color: white;
+    padding: 2rem 2rem 0 2rem;
+    display: block;
 }
 
 .photopanel {
-	background: url(../img/estudiar.jpg) center no-repeat;
-	background-size: cover;
-	float: left;
+    background: url(../img/estudiar.jpg) center no-repeat;
+    background-size: cover;
+    float: left;
 }
 
 .photopanel .panelbutton {
-	font-family: 'vaud-bold';
-	font-size: 2.8rem;
-	color: white;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: inherit;
-	padding: 1rem 2rem 4rem 2rem;
-	background-image:
-		linear-gradient(36deg, #DA2D26 16%, #F2914B 100%);
+    font-family: 'vaud-bold';
+    font-size: 2.8rem;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: inherit;
+    padding: 1rem 2rem 4rem 2rem;
+    background-image: linear-gradient(36deg, #DA2D26 16%, #F2914B 100%);
 }
