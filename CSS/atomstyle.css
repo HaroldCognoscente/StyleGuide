@@ -155,6 +155,23 @@ ul.paginacio li a:hover {
 	color: #DA2D26;
 }
 
+ol {
+	counter-reset: item;
+	font-size: 1.6rem;
+}
+
+ol li {
+	display: block;
+	padding-bottom: 1rem;
+}
+
+ol li:before {
+	content: counter(item) ". ";
+	counter-increment: item;
+	color: #DA2D26;
+	font-family: 'vaud_bold';
+}
+
 .button {
     /* Rectangle: */
     background-image: linear-gradient(36deg, #DA2D26 16%, #F2914B 100%);
