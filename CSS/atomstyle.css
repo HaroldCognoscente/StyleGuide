@@ -41,12 +41,14 @@ html {
 h2 {
 	color: #575756;
 	font-size: 2.4rem;
+	padding: 3rem;
 }
 
-h5 {
-	font-family: 'vaud_bold';
-	font-size: 2rem;
+h3 {
 	color: #DA2D26;
+	font-family: 'vaud-bold';
+	font-size: 1.6rem;
+	padding: 3rem;
 }
 
 a {
@@ -55,9 +57,29 @@ a {
 	line-height: inherit;
 }
 
+table {
+	border: solid 2px #979797;
+}
+
+table tr:nth-of-type(even) {
+	background: #F5F5F5;
+}
+
+thead {
+	background-color: #97D35D;
+	color: white;
+	font-family: 'vaud-bold';
+}
+
+th, td {
+	padding-left: 1rem;
+	line-height: 4rem;
+	font-size: 1.6rem;
+	text-align: left;
+}
+
 ul.breadcrumbs {
 	font-size: 1.4rem;
-	padding: 3rem;
 }
 
 ul.breadcrumbs li{
@@ -84,7 +106,6 @@ ul.breadcrumbs > *:last-child {
 
 ul.paginacio {
 	font-size: 1.8rem;
-	padding: 3rem;
 	list-style-position: outside;
 }
 
@@ -124,6 +145,7 @@ ul.paginacio li a:hover {
 }
 
 .alertbox, .warningbox, .successbox, .infobox {
+	font-family: 'vaud_bold';
 	color: white;
 	font-size: 1.4rem;
 	display: inline-block;
@@ -146,16 +168,21 @@ ul.paginacio li a:hover {
 	background-color: #26B2DA;
 }
 
-.infopanel {
+.infopanel, .linkpanel, .photopanel {
 	background: #FCFCFC;
 	box-shadow: 0px 2px 4px 0px #C6C6C6;
 	width: 295px;
 	height: 215px;
 	position: relative;
+	display: inline-block;
 }
 
-.infopanel h5 {
+.infopanel a {
 	padding: 2rem 2rem 0 2rem;
+	display: block;
+	font-family: 'vaud_bold';
+	font-size: 2rem;
+	color: #DA2D26;
 }
 
 .infopanel p {
@@ -166,4 +193,37 @@ ul.paginacio li a:hover {
 	left: 0;
 	padding: 0 2rem 2rem 2rem;
 	color: #575756;
+}
+
+.linkpanel {
+	background-image:
+		linear-gradient(36deg, #DA2D26 16%, #F2914B 100%);
+	float: left;
+}
+
+.linkpanel a {
+	font-size: 3.6rem;
+	font-family: 'vaud_bold';
+	color: white;
+	padding: 2rem 2rem 0 2rem;
+	display: block;
+}
+
+.photopanel {
+	background: url(../img/estudiar.jpg) center no-repeat;
+	background-size: cover;
+	float: left;
+}
+
+.photopanel .panelbutton {
+	font-family: 'vaud-bold';
+	font-size: 2.8rem;
+	color: white;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: inherit;
+	padding: 1rem 2rem 4rem 2rem;
+	background-image:
+		linear-gradient(36deg, #DA2D26 16%, #F2914B 100%);
 }
