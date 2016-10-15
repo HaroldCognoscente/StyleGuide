@@ -1,254 +1,295 @@
 <!DOCTYPE html>
 <html>
-  <head>
-	   <title>Atoms - URV Style Guide 2016</title>
-	    <meta charset="UTF-8">
-	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-      <!-- maximum-scale=1 -> no zoom -->
-	    <link href="http://meyerweb.com/eric/tools/css/reset/reset.css" rel="stylesheet">
-	    <link rel="stylesheet" href="CSS/atomstyle.css">
-      <!--[if lt IE 9]>
+
+<head>
+    <title>Atoms - URV Style Guide 2016</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- maximum-scale=1 -> no zoom -->
+    <link href="http://meyerweb.com/eric/tools/css/reset/reset.css" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="CSS/atomstyle.css">
+    <!--[if lt IE 9]>
   		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
   		<![endif]-->
-  </head>
 
-  <body>
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+</head>
+
+<body>
     <h2>Breadcrumbs</h2>
     <ul class="breadcrumbs">
-      <li>
-        <a href="#">Portada</a>
-      </li>
-      <li>
-        <a href="#">Estudis</a>
-      </li>
-      <li>
-        <a href="#">Graus</a>
-      </li>
-      <li>
-        <a href="#">Oferta de graus</a>
-      </li>
+        <li>
+            <a href="#">Portada</a>
+        </li>
+        <li>
+            <a href="#">Estudis</a>
+        </li>
+        <li>
+            <a href="#">Graus</a>
+        </li>
+        <li>
+            <a href="#">Oferta de graus</a>
+        </li>
     </ul>
     <h2>Paginació</h2>
     <ul class="paginacio">
-      <li class="fletxa">
-        <a href="#"><<</a>
-      </li>
-      <li>
-        <a href="#">1</a>
-      </li>
-      <li>
-        <a href="#">2</a>
-      </li>
-      <li>
-        <a href="#">3</a>
-      </li>
-      <li class="actual">
-        <a href="#">4</a>
-      </li>
-      <li>
-        <a href="#">5</a>
-      </li>
-      <li>
-        <a href="#">6</a>
-      </li>
-      <li>
-        <a href="#">...</a>
-      </li>
-      <li class="fletxa">
-        <a href="#">>></a>
-      </li>
+        <li class="fletxa">
+            <a href="#">
+                <<</a>
+        </li>
+        <li>
+            <a href="#">1</a>
+        </li>
+        <li>
+            <a href="#">2</a>
+        </li>
+        <li>
+            <a href="#">3</a>
+        </li>
+        <li class="actual">
+            <a href="#">4</a>
+        </li>
+        <li>
+            <a href="#">5</a>
+        </li>
+        <li>
+            <a href="#">6</a>
+        </li>
+        <li>
+            <a href="#">...</a>
+        </li>
+        <li class="fletxa">
+            <a href="#">>></a>
+        </li>
     </ul>
     <h2>Call to action</h2>
     <a href="#" class="button">Matricula't ara</a>
     <h2>Alertes</h2>
     <div class="errorbox">
-      Missatge d'error
-      <div class="erroricon"></div>
+        Missatge d'error
+        <div class="erroricon"></div>
     </div>
     <div class="warningbox">
-      Missatge d'advertència
-      <div class="warningicon"></div>
+        Missatge d'advertència
+        <div class="warningicon"></div>
     </div>
     <div class="successbox">
-      S'ha realitzat correctament
-      <div class="successicon"></div>
+        S'ha realitzat correctament
+        <div class="successicon"></div>
     </div>
     <div class="infobox">
-      Missatge informatiu
-      <div class="infoicon"></div>
+        Missatge informatiu
+        <div class="infoicon"></div>
     </div>
     <h2>Panells</h2>
     <div class="infopanel">
-      <a href="#">Es descobreix l’absis d’una basílica visigòtica del segle VI a Tortosa</a>
-      <p>
-        Es tracta d’una estructural mural de forma semicircular que els arqueòlegs han identificat com l’absis d’un edifici religiós cristià
-      </p>
+        <a href="#">Es descobreix l’absis d’una basílica visigòtica del segle VI a Tortosa</a>
+        <p>
+            Es tracta d’una estructural mural de forma semicircular que els arqueòlegs han identificat com l’absis d’un edifici religiós cristià
+        </p>
     </div>
     <div class="linkpanel">
-      <a href="#">Títols propis de postgrau</a>
+        <a href="#">Títols propis de postgrau</a>
     </div>
     <div class="photopanel">
-      <a href="#" class="panelbutton">Què estudiar?</a>
+        <a href="#" class="panelbutton">Què estudiar?</a>
     </div>
     <h2>Taules</h2>
     <table>
-      <thead>
-        <tr height="40px">
-          <th width="150px">Títol col. 1</th>
-          <th width="200px">Títol col. 2</th>
-          <th width="200px">Títol col. 3</th>
-          <th width="200px">Títol col. 4</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr height="40px">
-          <td>Contingut</td>
-          <td>Contingut</td>
-          <td>Contingut</td>
-          <td>Contingut</td>
-        </tr>
-        <tr height="40px">
-          <td>Contingut</td>
-          <td>Contingut</td>
-          <td>Contingut</td>
-          <td>Contingut</td>
-        </tr>
-        <tr height="40px">
-          <td>Contingut</td>
-          <td>Contingut</td>
-          <td>Contingut</td>
-          <td>Contingut</td>
-        </tr>
-        <tr height="40px">
-          <td>Contingut</td>
-          <td>Contingut</td>
-          <td>Contingut</td>
-          <td>Contingut</td>
-        </tr>
-        <tr height="40px">
-          <td>Contingut</td>
-          <td>Contingut</td>
-          <td>Contingut</td>
-          <td>Contingut</td>
-        </tr>
-        <tr height="40px">
-          <td>Contingut</td>
-          <td>Contingut</td>
-          <td>Contingut</td>
-          <td>Contingut</td>
-        </tr>
-      </tbody>
+        <thead>
+            <tr height="40px">
+                <th width="150px">Títol col. 1</th>
+                <th width="200px">Títol col. 2</th>
+                <th width="200px">Títol col. 3</th>
+                <th width="200px">Títol col. 4</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr height="40px">
+                <td>Contingut</td>
+                <td>Contingut</td>
+                <td>Contingut</td>
+                <td>Contingut</td>
+            </tr>
+            <tr height="40px">
+                <td>Contingut</td>
+                <td>Contingut</td>
+                <td>Contingut</td>
+                <td>Contingut</td>
+            </tr>
+            <tr height="40px">
+                <td>Contingut</td>
+                <td>Contingut</td>
+                <td>Contingut</td>
+                <td>Contingut</td>
+            </tr>
+            <tr height="40px">
+                <td>Contingut</td>
+                <td>Contingut</td>
+                <td>Contingut</td>
+                <td>Contingut</td>
+            </tr>
+            <tr height="40px">
+                <td>Contingut</td>
+                <td>Contingut</td>
+                <td>Contingut</td>
+                <td>Contingut</td>
+            </tr>
+            <tr height="40px">
+                <td>Contingut</td>
+                <td>Contingut</td>
+                <td>Contingut</td>
+                <td>Contingut</td>
+            </tr>
+        </tbody>
     </table>
     <h2>Acordions</h2>
+    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+        <div class="panel panel-default">
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                <div class="panel-heading" role="tab" id="heading1"><h3>Exemple Acordion</h3>
+                </div>
+            </a>
+
+        </div>
+        <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
+            <div class="panel-body">
+                <div class="cont_acordion_1"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus sollicitudin lectus. Integer lorem sem, efficitur placerat felis eget, semper luctus neque. Quisque faucibus, ante auctor vehicula pellentesque, nisl purus euismod nunc, vitae pulvinar velit risus id elit. Quisque eget ligula urna. Ut ullamcorper scelerisque lectus vitae venenatis. Suspendisse ut vehicula dolor, vitae posuere nibh. Suspendisse bibendum ante eget ante suscipit, in fermentum ante hendrerit.</p></div>
+                <div class="cont_acordion_2"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus sollicitudin lectus. Integer lorem sem, efficitur placerat felis eget, semper luctus neque. Quisque faucibus, ante auctor vehicula pellentesque, nisl purus euismod nunc, vitae pulvinar velit risus id elit. Quisque eget ligula urna. Ut ullamcorper scelerisque lectus vitae venenatis. Suspendisse ut vehicula dolor, vitae posuere nibh. Suspendisse bibendum ante eget ante suscipit, in fermentum ante hendrerit.</p></div>
+                <div class="cont_acordion_3"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus sollicitudin lectus. Integer lorem sem, efficitur placerat felis eget, semper luctus neque. Quisque faucibus, ante auctor vehicula pellentesque, nisl purus euismod nunc, vitae pulvinar velit risus id elit. Quisque eget ligula urna. Ut ullamcorper scelerisque lectus vitae venenatis. Suspendisse ut vehicula dolor, vitae posuere nibh. Suspendisse bibendum ante eget ante suscipit, in fermentum ante hendrerit</p></div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+
+
+
+
     <h2>Formularis</h2>
     <form method="get" action="#">
-			<div>
-				<label for="name">Nom</label>
-				<input type="text" id="name" placeholder="Posa aquí el teu nom">
-			</div>
-			<div>
-				<label for="telefon">Telèfon</label>
-				<input type="phone" id="telefon" placeholder="9 dígits començant per 9, 8, 7 o 6" pattern="^[9|8|7|6]\d{8}$">
-			</div>
-			<div>
-				<label for="email">Email</label>
-				<input type="email" id="email" required>
-			</div>
-			<div>
-				<label for="twitter">Usuari de Twitter</label>
-				<input type="text" id="twitter" pattern="^@?(\w){1-15}$" placeholder="@Usuari">
-			</div>
-      <div>
-        <input type="text" id="disabled" placeholder="Desactivat">
-      </div>
-      <textarea rows="4" cols="50" name="comment" form="usrform">
-      Introdueix text aquí...</textarea><br />
-      <select name="que_magradaria">
-				<option value="cantar">cantar</option>
-				<option value="sopar">sopar</option>
-				<option value="ballar">ballar</option>
-			</select>
-			<div>
-				<input type="checkbox" id="check">
-				<label for="check">Accepto les condicions</label>
-			</div>
-			<div>
-				<button type="submit">Enviar</button>
-			</div>
-		</form>
+        <div>
+            <label for="name">Nom</label>
+            <input type="text" id="name" placeholder="Posa aquí el teu nom">
+        </div>
+        <div>
+            <label for="telefon">Telèfon</label>
+            <input type="phone" id="telefon" placeholder="9 dígits començant per 9, 8, 7 o 6" pattern="^[9|8|7|6]\d{8}$">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+        </div>
+        <div>
+            <label for="twitter">Usuari de Twitter</label>
+            <input type="text" id="twitter" pattern="^@?(\w){1-15}$" placeholder="@Usuari">
+        </div>
+        <div>
+            <input type="text" id="disabled" placeholder="Desactivat">
+        </div>
+        <textarea rows="4" cols="50" name="comment" form="usrform">
+            Introdueix text aquí...</textarea>
+        <br />
+        <select name="que_magradaria">
+            <option value="cantar">cantar</option>
+            <option value="sopar">sopar</option>
+            <option value="ballar">ballar</option>
+        </select>
+        <div>
+            <input type="checkbox" id="check">
+            <label for="check">Accepto les condicions</label>
+        </div>
+        <div>
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
     <h2>Pestanyes</h2>
     <section>
-      <div class="tabs" tabindex="0">
-        <button autofocus>Tab 1</button>
-        <p>Tab Content #1</p>
-      </div>
-      <div class="tabs" tabindex="0">
-        <button>Tab 2</button>
-        <p>Content for Tab #2</p>
-      </div>
-      <div class="tabs" tabindex="0">
-        <button>Tab 3</button>
-        <p>#3 Tab Content</p>
-      </div>
+        <div class="tabs" tabindex="0">
+            <button autofocus>Tab 1</button>
+            <p>Tab Content #1</p>
+        </div>
+        <div class="tabs" tabindex="0">
+            <button>Tab 2</button>
+            <p>Content for Tab #2</p>
+        </div>
+        <div class="tabs" tabindex="0">
+            <button>Tab 3</button>
+            <p>#3 Tab Content</p>
+        </div>
     </section>
     <h2>Llistes</h2>
-      <h3>Llista desordenada</h3>
-      <ul class="unlist">
+    <h3>Llista desordenada</h3>
+    <ul class="unlist">
         <li>Llista desordenada</li>
         <li>Llista desordenada</li>
         <li>Llista desordenada</li>
         <li>Llista desordenada</li>
-      </ul>
-      <h3>Llista ordenada</h3>
-      <ol>
+    </ul>
+    <h3>Llista ordenada</h3>
+    <ol>
         <li>Llista ordenada</li>
         <li>Llista ordenada</li>
         <li>Llista ordenada</li>
         <li>Llista ordenada</li>
-      </ol>
+    </ol>
     <h2>Botons</h2>
     <footer>
-      <div class="footer1">
-        <div class="logourvwhite"></div>
-        <div class="contactinfo">
-          Contacteu amb nosaltres<br />
-          Telèfon (+34) 977 558 000<br />
-          info@urv.cat
+        <div class="footer1">
+            <div class="logourvwhite"></div>
+            <div class="contactinfo">
+                Contacteu amb nosaltres
+                <br /> Telèfon (+34) 977 558 000
+                <br /> info@urv.cat
+            </div>
+            <div class="legal">
+                © Universitat Rovira i Virgili
+                <a href="#">Avís legal</a>
+                <a href="#">Política de galetes</a>
+                <a href="#">Accessibilitat</a>
+            </div>
         </div>
-        <div class="legal">
-          © Universitat Rovira i Virgili
-          <a href="#">Avís legal</a>
-          <a href="#">Política de galetes</a>
-          <a href="#">Accessibilitat</a>
+        <div class="footer2">
+            <ul class="unlistwhite">
+                <li><a href="#">Correu Electrònic</a></li>
+                <li><a href="#">Intranet</a></li>
+                <li><a href="#">Campus Virtual</a></li>
+                <li><a href="#">CRAI</a></li>
+                <li><a href="#">Ocupació URV</a></li>
+                <li><a href="#">Seu Electrònica</a></li>
+                <li><a href="#">Directori</a></li>
+            </ul>
         </div>
-      </div>
-      <div class="footer2">
-        <ul class="unlistwhite">
-          <li><a href="#">Correu Electrònic</a></li>
-          <li><a href="#">Intranet</a></li>
-          <li><a href="#">Campus Virtual</a></li>
-          <li><a href="#">CRAI</a></li>
-          <li><a href="#">Ocupació URV</a></li>
-          <li><a href="#">Seu Electrònica</a></li>
-          <li><a href="#">Directori</a></li>
-        </ul>
-      </div>
-      <div class="footer3">
-        <ul class="unlistwhite">
-          <li><a href="#">Esports URV</a></li>
-          <li><a href="#">Llengües URV</a></li>
-          <li><a href="#">Perfil del contractant</a></li>
-          <li><a href="#">Portal de transparència</a></li>
-          <li><a href="#">Automatrícula</a></li>
-        </ul>
-      </div>
-      <div class="footer4">
-        <div class="instagramwhite"></div>
-        <div class="facebookwhite"></div>
-        <div class="youtubewhite"></div>
-        <div class="linkedinwhite"></div>
-        <div class="twitterwhite"></div>
-      </div>
+        <div class="footer3">
+            <ul class="unlistwhite">
+                <li><a href="#">Esports URV</a></li>
+                <li><a href="#">Llengües URV</a></li>
+                <li><a href="#">Perfil del contractant</a></li>
+                <li><a href="#">Portal de transparència</a></li>
+                <li><a href="#">Automatrícula</a></li>
+            </ul>
+        </div>
+        <div class="footer4">
+            <div class="instagramwhite"></div>
+            <div class="facebookwhite"></div>
+            <div class="youtubewhite"></div>
+            <div class="linkedinwhite"></div>
+            <div class="twitterwhite"></div>
+        </div>
     </footer>
-  </body>
+</body>
+
+<!-- Links JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Link JS Bootstrap -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
 </html>
