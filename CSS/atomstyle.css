@@ -163,6 +163,7 @@ ol {
 ol li {
 	display: block;
 	padding-bottom: 1rem;
+	padding-left: 0.5rem;
 }
 
 ol li:before {
@@ -298,4 +299,76 @@ ol li:before {
     width: inherit;
     padding: 1rem 2rem 4rem 2rem;
     background-image: linear-gradient(36deg, #DA2D26 16%, #F2914B 100%);
+}
+
+section {
+  position: relative;
+  width: 606px;
+  z-index: 0;
+  padding-bottom: 15rem;
+}
+
+section:after {
+  content: '';
+  position: absolute;
+  background-color: #FCFCFC;
+  left: 0;
+  top: 45px;
+  width: 100%;
+  height: 120px;
+  font-size: 1.8em;
+  border: 0.1rem solid #F2914B;
+  padding: 40px 0;
+}
+
+.tabs button {
+  cursor: pointer;
+  width: 90px;
+  display: inline-block;
+  background-color: white;
+  color: #F2914B;
+  transition: .25s ease;
+  border: 0.1rem solid #F2914B;
+  padding: 10px;
+  text-align: left;
+  font-size: 1.8rem;
+  font-family: 'vaud_bold';
+}
+
+.tabs button:hover {
+  background-color: #F8564E;
+  color: white;
+}
+
+.tabs:focus button, button:focus {
+  background-color: #F2914B;
+  outline: none;
+  color: white;
+}
+
+.tabs button:focus + p, .tabs:focus P {
+  display: block;
+  position: absolute;
+  background-color: ##FCFCFC;
+  border: 0.1rem solid #F2914B;
+  height: 120px;
+  width: 100%;
+  left: 0;
+  z-index: 2;
+  outline: none;
+  top: 45px;
+  padding-top: 48px;
+}
+
+.tabs p {
+  display: none;
+  font-size: 2em;
+}
+
+.tabs {
+  display: inline-block;
+}
+
+.tabs:focus {
+  outline: none;
 }
