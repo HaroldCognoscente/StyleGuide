@@ -139,13 +139,47 @@
         </tr>
       </tbody>
     </table>
-    <h2>Pestanyes</h2>
     <h2>Acordions</h2>
     <h2>Formularis</h2>
+    <form method="get" action="#">
+			<div>
+				<label for="name">Nom</label>
+				<input type="text" id="name" placeholder="Posa aquí el teu nom">
+			</div>
+			<div>
+				<label for="telefon">Telèfon</label>
+				<input type="phone" id="telefon" placeholder="9 dígits començant per 9, 8, 7 o 6" pattern="^[9|8|7|6]\d{8}$">
+			</div>
+			<div>
+				<label for="email">Email</label>
+				<input type="email" id="email" required>
+			</div>
+			<div>
+				<label for="twitter">Usuari de Twitter</label>
+				<input type="text" id="twitter" pattern="^@?(\w){1-15}$" placeholder="@Usuari">
+			</div>
+      <div>
+        <input type="text" id="disabled" placeholder="Desactivat">
+      </div>
+      <textarea rows="4" cols="50" name="comment" form="usrform">
+      Introdueix text aquí...</textarea><br />
+      <select name="que_magradaria">
+				<option value="cantar">cantar</option>
+				<option value="sopar">sopar</option>
+				<option value="ballar">ballar</option>
+			</select>
+			<div>
+				<input type="checkbox" id="check">
+				<label for="check">Accepto les condicions</label>
+			</div>
+			<div>
+				<button type="submit">Enviar</button>
+			</div>
+		</form>
     <h2>Pestanyes</h2>
     <section>
       <div class="tabs" tabindex="0">
-        <button>Tab 1</button>
+        <button autofocus>Tab 1</button>
         <p>Tab Content #1</p>
       </div>
       <div class="tabs" tabindex="0">
@@ -173,5 +207,48 @@
         <li>Llista ordenada</li>
       </ol>
     <h2>Botons</h2>
+    <footer>
+      <div class="footer1">
+        <div class="logourvwhite"></div>
+        <div class="contactinfo">
+          Contacteu amb nosaltres<br />
+          Telèfon (+34) 977 558 000<br />
+          info@urv.cat
+        </div>
+        <div class="legal">
+          © Universitat Rovira i Virgili
+          <a href="#">Avís legal</a>
+          <a href="#">Política de galetes</a>
+          <a href="#">Accessibilitat</a>
+        </div>
+      </div>
+      <div class="footer2">
+        <ul class="unlistwhite">
+          <li><a href="#">Correu Electrònic</a></li>
+          <li><a href="#">Intranet</a></li>
+          <li><a href="#">Campus Virtual</a></li>
+          <li><a href="#">CRAI</a></li>
+          <li><a href="#">Ocupació URV</a></li>
+          <li><a href="#">Seu Electrònica</a></li>
+          <li><a href="#">Directori</a></li>
+        </ul>
+      </div>
+      <div class="footer3">
+        <ul class="unlistwhite">
+          <li><a href="#">Esports URV</a></li>
+          <li><a href="#">Llengües URV</a></li>
+          <li><a href="#">Perfil del contractant</a></li>
+          <li><a href="#">Portal de transparència</a></li>
+          <li><a href="#">Automatrícula</a></li>
+        </ul>
+      </div>
+      <div class="footer4">
+        <div class="instagramwhite"></div>
+        <div class="facebookwhite"></div>
+        <div class="youtubewhite"></div>
+        <div class="linkedinwhite"></div>
+        <div class="twitterwhite"></div>
+      </div>
+    </footer>
   </body>
 </html>

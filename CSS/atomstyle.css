@@ -327,7 +327,7 @@ section:after {
   display: inline-block;
   background-color: white;
   color: #F2914B;
-  transition: .25s ease;
+  transition: .40s ease;
   border: 0.1rem solid #F2914B;
   padding: 10px;
   text-align: left;
@@ -336,7 +336,7 @@ section:after {
 }
 
 .tabs button:hover {
-  background-color: #F8564E;
+  background-color: #DA2D26;
   color: white;
 }
 
@@ -349,7 +349,7 @@ section:after {
 .tabs button:focus + p, .tabs:focus P {
   display: block;
   position: absolute;
-  background-color: ##FCFCFC;
+  background-color: #FCFCFC;
   border: 0.1rem solid #F2914B;
   height: 120px;
   width: 100%;
@@ -371,4 +371,94 @@ section:after {
 
 .tabs:focus {
   outline: none;
+}
+
+footer {
+  width: 100%;
+  height: 45rem;
+  background-color: #575756;
+  color: white;
+}
+
+.footer1, .footer2, .footer3, .footer4 {
+  display: inline-block;
+  padding: 4rem;
+  vertical-align: top;
+}
+
+.footer4 {
+  float: right;
+}
+
+.logourvwhite {
+  content: url(../img/urv-white.svg);
+  width: 159px;
+  height: 67px;
+  margin-bottom: 40px;
+}
+
+.contactinfo {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  margin-bottom: 80px;
+}
+
+.legal {
+  font-size: 1.4rem;
+}
+
+.legal a {
+  display: block;
+  padding-bottom: 0.7rem;
+}
+
+.legal a:first-child {
+  padding-top: 0.7rem;
+}
+
+.unlistwhite {
+	font-size: 1.6rem;
+	list-style: none;
+  padding:0;
+  margin:0;
+}
+
+.unlistwhite li {
+	padding-bottom: 0.7rem;
+	padding-left: 1em;
+  text-indent: -.7em;
+}
+
+.unlistwhite li::before {
+	content: '• ';
+	font-size: 2.3rem;
+	color: white;
+}
+
+.instagramwhite, .facebookwhite, .youtubewhite, .linkedinwhite, .twitterwhite {
+  width: 53px;
+  height: 50px;
+  display: inline-block;
+  vertical-align: bottom;
+  margin-left: 2rem;
+}
+
+.instagramwhite {
+  content: url(../img/instagram_logo.svg);
+}
+
+.facebookwhite {
+  content: url(../img/facebook_logo.svg);
+}
+
+.youtubewhite {
+  content: url(../img/youtube_logo.svg);
+}
+
+.linkedinwhite {
+  content: url(../img/linkedin_logo.svg);
+}
+
+.twitterwhite {
+  content: url(../img/twitter_logo.svg);
 }
