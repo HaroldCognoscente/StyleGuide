@@ -30,7 +30,7 @@ html {
 }
 
 
-/* Estils Atòmics */
+/* Estils Atòmics ---------------------------------------------*/
 
 html {
     font-family: 'vaud_regular';
@@ -57,6 +57,8 @@ a {
     line-height: inherit;
 }
 
+/* Taules ------------------------------------------------------*/
+
 table {
     border: solid 1px #f2914b;
 }
@@ -79,6 +81,58 @@ td {
     text-align: left;
     border-right: 1px solid #F2914B;
 }
+
+/* Formularis --------------------------------------------------*/
+
+input {
+	display: block;
+	min-width: 50%;
+	font-size: 1.8rem;
+  padding: 1rem;
+  outline: none;
+}
+
+::-webkit-input-placeholder {
+	color: #929292;
+}
+
+:-ms-input-placeholder {
+	color: #929292;
+}
+
+::-moz-placeholder {
+	color: #929292;
+}
+
+::placeholder {
+	color: #929292;
+}
+
+input:focus {
+  box-shadow: 0 0 5px #F2914B;
+}
+
+input:optional {
+	border: 2px solid #F2914B;
+}
+
+input:invalid {
+	background-color: #FCFCFC;
+	border: 2px solid #DA2D26;
+  box-shadow: 0 0 5px #DA2D26;
+}
+
+input:valid {
+	border: 1px solid #97D35D;
+  box-shadow: 0 0 5px #97D35D;
+}
+
+input[type=checkbox]:checked + label {
+	color: green;
+	font-weight: bold;
+}
+
+/* Breadcrumbs -------------------------------------------------*/
 
 ul.breadcrumbs {
 		list-style: none;
@@ -106,6 +160,8 @@ ul.breadcrumbs > *:last-child {
     color: #F2914B;
     font-family: 'vaud_bold';
 }
+
+/* Paginació ---------------------------------------------------*/
 
 ul.paginacio {
     font-size: 1.8rem;
@@ -136,6 +192,8 @@ ul.paginacio li a:hover {
     color: white;
 }
 
+/* Llista desordenada -----------------------------------------*/
+
 .unlist {
 	font-size: 1.6rem;
 	list-style: none;
@@ -155,6 +213,8 @@ ul.paginacio li a:hover {
 	color: #DA2D26;
 }
 
+/* Llista ordenada --------------------------------------------*/
+
 ol {
 	counter-reset: item;
 	font-size: 1.6rem;
@@ -173,8 +233,9 @@ ol li:before {
 	font-family: 'vaud_bold';
 }
 
-.button {
-    /* Rectangle: */
+/* Call to action ----------------------------------------------*/
+
+.calltoaction {
     background-image: linear-gradient(36deg, #DA2D26 16%, #F2914B 100%);
     color: white;
     padding: 2rem 7rem;
@@ -183,6 +244,8 @@ ol li:before {
     text-decoration: none;
     display: inline-block;
 }
+
+/* Caixes de notificació ----------------------------------------*/
 
 .errorbox,
 .warningbox,
@@ -240,6 +303,8 @@ ol li:before {
 .infobox {
     background-color: #26B2DA;
 }
+
+/* Panells d'informació -----------------------------------------*/
 
 .infopanel,
 .linkpanel,
@@ -301,6 +366,8 @@ ol li:before {
     background-image: linear-gradient(36deg, #DA2D26 16%, #F2914B 100%);
 }
 
+/* Pestanyes ----------------------------------------------------*/
+
 section {
   position: relative;
   width: 606px;
@@ -338,6 +405,7 @@ section:after {
 .tabs button:hover {
   background-color: #DA2D26;
   color: white;
+  border: 0.1rem solid #DA2D26;
 }
 
 .tabs:focus button, button:focus {
@@ -372,6 +440,8 @@ section:after {
 .tabs:focus {
   outline: none;
 }
+
+/* Footer ----------------------------------------------------*/
 
 footer {
   width: 100%;
