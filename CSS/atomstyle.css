@@ -278,10 +278,13 @@ ol li:before {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
 }
 
 .calltoaction:hover {
   color: white;
+  box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 9px 25px 0 rgba(0,0,0,0.19);
 }
 
 /* Caixes de notificació ----------------------------------------*/
@@ -466,12 +469,14 @@ section:after {
   z-index: 2;
   outline: none;
   top: 45px;
-  padding-top: 48px;
+  padding: 1.5rem;
 }
 
 .tabs p {
+  font-family: 'vaud_regular';
   display: none;
-  font-size: 2em;
+  font-size: 1.6rem;
+  overflow: scroll;
 }
 
 .tabs {
@@ -482,6 +487,39 @@ section:after {
   outline: none;
 }
 
+/* Botons ----------------------------------------------------*/
+
+.redbutton, .orangebutton, .bluebutton, .greenbutton {
+  color: white;
+  font-size: 1.6rem;
+  padding: 1.5rem 4rem;
+  outline: none;
+  border: none;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.redbutton {
+  background-color: #DA2D26;
+}
+
+.orangebutton {
+  background-color: #F2914B;
+}
+
+.bluebutton {
+  background-color: #26B2DA;
+}
+
+.greenbutton {
+  background-color: #97D35D;
+}
+
+.redbutton:hover, .orangebutton:hover, .bluebutton:hover, .greenbutton:hover {
+  color: white;
+  box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 9px 25px 0 rgba(0,0,0,0.19);
+}
+
 /* Footer ----------------------------------------------------*/
 
 footer {
@@ -489,6 +527,7 @@ footer {
   height: 45rem;
   background-color: #575756;
   color: white;
+  margin-top: 3rem;
 }
 
 .footer1, .footer2, .footer3, .footer4 {
