@@ -26,12 +26,7 @@ html {
     font-weight: bold;
 }
 
-<<<<<<< HEAD
 /* Estils Atòmics */
-=======
-
-/* Estils Atòmics ---------------------------------------------*/
->>>>>>> 0a96444bfa164c1063e0c352a3030dff5fa5c339
 
 html {
     font-family: 'vaud_regular';
@@ -54,12 +49,6 @@ a {
     text-decoration: none;
     line-height: inherit;
 }
-<<<<<<< HEAD
-=======
-
-/* Taules ------------------------------------------------------*/
-
->>>>>>> 0a96444bfa164c1063e0c352a3030dff5fa5c339
 table {
     border: solid 1px #f2914b;
 }
@@ -79,62 +68,6 @@ td {
     text-align: left;
     border-right: 1px solid #F2914B;
 }
-<<<<<<< HEAD
-=======
-
-/* Formularis --------------------------------------------------*/
-
-input {
-	display: block;
-	min-width: 50%;
-	font-size: 1.8rem;
-  padding: 1rem;
-  outline: none;
-}
-
-::-webkit-input-placeholder {
-	color: #929292;
-}
-
-:-ms-input-placeholder {
-	color: #929292;
-}
-
-::-moz-placeholder {
-	color: #929292;
-}
-
-::placeholder {
-	color: #929292;
-}
-
-input:focus {
-  box-shadow: 0 0 5px #F2914B;
-}
-
-input:optional {
-	border: 2px solid #F2914B;
-}
-
-input:invalid {
-	background-color: #FCFCFC;
-	border: 2px solid #DA2D26;
-  box-shadow: 0 0 5px #DA2D26;
-}
-
-input:valid {
-	border: 1px solid #97D35D;
-  box-shadow: 0 0 5px #97D35D;
-}
-
-input[type=checkbox]:checked + label {
-	color: green;
-	font-weight: bold;
-}
-
-/* Breadcrumbs -------------------------------------------------*/
-
->>>>>>> 0a96444bfa164c1063e0c352a3030dff5fa5c339
 ul.breadcrumbs {
     list-style: none;
     font-size: 1.4rem;
@@ -156,12 +89,6 @@ ul.breadcrumbs > *:last-child {
     color: #F2914B;
     font-family: 'vaud_bold';
 }
-<<<<<<< HEAD
-=======
-
-/* Paginació ---------------------------------------------------*/
-
->>>>>>> 0a96444bfa164c1063e0c352a3030dff5fa5c339
 ul.paginacio {
     font-size: 1.8rem;
     list-style-position: outside;
@@ -186,12 +113,6 @@ ul.paginacio li a:hover {
     background-color: #F2914B;
     color: white;
 }
-<<<<<<< HEAD
-=======
-
-/* Llista desordenada -----------------------------------------*/
-
->>>>>>> 0a96444bfa164c1063e0c352a3030dff5fa5c339
 .unlist {
     font-size: 1.6rem;
     list-style: none;
@@ -208,12 +129,6 @@ ul.paginacio li a:hover {
     font-size: 2.3rem;
     color: #DA2D26;
 }
-<<<<<<< HEAD
-=======
-
-/* Llista ordenada --------------------------------------------*/
-
->>>>>>> 0a96444bfa164c1063e0c352a3030dff5fa5c339
 ol {
     counter-reset: item;
     font-size: 1.6rem;
@@ -229,15 +144,8 @@ ol li:before {
     color: #DA2D26;
     font-family: 'vaud_bold';
 }
-<<<<<<< HEAD
 .button {
     /* Rectangle: */
-=======
-
-/* Call to action ----------------------------------------------*/
-
-.calltoaction {
->>>>>>> 0a96444bfa164c1063e0c352a3030dff5fa5c339
     background-image: linear-gradient(36deg, #DA2D26 16%, #F2914B 100%);
     color: white;
     padding: 2rem 7rem;
@@ -246,12 +154,6 @@ ol li:before {
     text-decoration: none;
     display: inline-block;
 }
-<<<<<<< HEAD
-=======
-
-/* Caixes de notificació ----------------------------------------*/
-
->>>>>>> 0a96444bfa164c1063e0c352a3030dff5fa5c339
 .errorbox,
 .warningbox,
 .successbox,
@@ -299,12 +201,6 @@ ol li:before {
 .infobox {
     background-color: #26B2DA;
 }
-<<<<<<< HEAD
-=======
-
-/* Panells d'informació -----------------------------------------*/
-
->>>>>>> 0a96444bfa164c1063e0c352a3030dff5fa5c339
 .infopanel,
 .linkpanel,
 .photopanel {
@@ -358,12 +254,6 @@ ol li:before {
     padding: 1rem 2rem 4rem 2rem;
     background-image: linear-gradient(36deg, #DA2D26 16%, #F2914B 100%);
 }
-<<<<<<< HEAD
-=======
-
-/* Pestanyes ----------------------------------------------------*/
-
->>>>>>> 0a96444bfa164c1063e0c352a3030dff5fa5c339
 section {
     position: relative;
     width: 606px;
@@ -396,14 +286,8 @@ section:after {
     font-family: 'vaud_bold';
 }
 .tabs button:hover {
-<<<<<<< HEAD
     background-color: #DA2D26;
     color: white;
-=======
-  background-color: #DA2D26;
-  color: white;
-  border: 0.1rem solid #DA2D26;
->>>>>>> 0a96444bfa164c1063e0c352a3030dff5fa5c339
 }
 .tabs:focus button,
 button:focus {
@@ -435,12 +319,6 @@ button:focus {
 .tabs:focus {
     outline: none;
 }
-<<<<<<< HEAD
-=======
-
-/* Footer ----------------------------------------------------*/
-
->>>>>>> 0a96444bfa164c1063e0c352a3030dff5fa5c339
 footer {
     width: 100%;
     height: 45rem;
