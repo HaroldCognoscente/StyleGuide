@@ -17,7 +17,7 @@
  * Verde:		rgba(151, 211, 93, 1);
  * Rojo:		rgba(248, 86, 78, 1);
  *
- **/ 
+ **/
 
 /* Universal Box Sizing Heretat (última versió) */
 
@@ -55,8 +55,7 @@ html {
 }
 
 html {
-font-size: 62.5%;
-  padding: 1.5rem;
+  font-size: 62.5%;
 }
 
 h3 {
@@ -554,6 +553,43 @@ section:after {
   box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 9px 25px 0 rgba(0,0,0,0.19);
 }
 
+/* Calendari -------------------------------------------------*/
+
+.calendarsq, .calendarshape {
+  width: 123px;
+  height: 121px;
+  color: white;
+  font-family: 'vaud_bold';
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 3rem;
+}
+
+.calendarsq {
+  background-image: linear-gradient(54deg, #DA2D26 16%, #F2914B 100%);
+  box-shadow: 0px 2px 4px 0px #C6C6C6;
+  padding: 1rem;
+}
+
+.calendarsq p, .calendarshape p {
+  font-size: 2rem;
+}
+
+.calendarsq p:last-child, .calendarshape p:last-child {
+  margin-top: -5px;
+}
+
+.calendarsq em, .calendarshape em {
+  font-size: 6.4rem;
+  line-height: 3rem;
+  margin: 0;
+}
+
+.calendarshape {
+  background: url(../img/calendar_shape.svg) center no-repeat;
+  padding-top: 1rem;
+}
+
 /* Footer ----------------------------------------------------*/
 
 footer {
@@ -561,7 +597,6 @@ footer {
   height: 45rem;
   background-color: #575756;
   color: white;
-  margin-top: 3rem;
 }
 
 .footer1, .footer2, .footer3, .footer4 {
