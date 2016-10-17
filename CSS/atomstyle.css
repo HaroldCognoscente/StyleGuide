@@ -343,7 +343,7 @@ ol li:before {
   height: 25px;
   display: inline-block;
   position: absolute;
-  top: 1rem;
+  top: 1.3rem;
   right: 1.6rem;
 }
 
@@ -588,6 +588,56 @@ section:after {
 .calendarshape {
   background: url(../img/calendar_shape.svg) center no-repeat;
   padding-top: 1rem;
+}
+
+/* Menú desplegable ------------------------------------------*/
+
+.dropmenu {
+  width: 800px;
+  height: 60px;
+  background-color: #FCFCFC;
+  box-shadow: 0px 2px 4px 0px #C6C6C6;
+  margin-bottom: 3rem;
+  overflow: hidden;
+}
+
+.urvlogo {
+  width: 50px;
+  height: 50px;
+  background: url(../img/urv_logo.svg) center no-repeat;
+  margin-left: 15px;
+  margin-top: 5px;
+  display: inline-block;
+}
+
+.menulist {
+  display: inline-block;
+  vertical-align: top;
+  padding: 15px 0 0 15px;
+}
+
+.menulist li {
+  display: inline-block;
+}
+
+.desplegable {
+
+}
+
+.dropbutton {
+
+}
+
+.contingut {
+  display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.desplegable:hover .contingut {
+    display: block;
 }
 
 /* Footer ----------------------------------------------------*/
