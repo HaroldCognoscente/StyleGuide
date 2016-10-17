@@ -5,6 +5,7 @@ html {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 *,
 *:before,
 *:after {
@@ -85,6 +86,14 @@ td {
   font-size: 1.6rem;
   text-align: left;
   border-right: 1px solid #F2914B;
+}
+
+th {
+  font-family: 'vaud_bold';
+}
+
+td {
+  font-family: 'vaud_regular';
 }
 
 /* Formularis --------------------------------------------------*/
@@ -403,7 +412,7 @@ ol li:before {
 }
 
 .photopanel .panelbutton {
-  font-family: 'vaud-bold';
+  font-family: 'vaud_bold';
   font-size: 2.8rem;
   color: white;
   position: absolute;
