@@ -622,6 +622,13 @@ section:after {
 .menulist li {
   display: inline-block;
   vertical-align: middle;
+  padding: 20px 20px 0 20px;
+  height: 60px;
+}
+
+.menulist li:hover {
+  color: #DA2D26;
+  box-shadow: inset 0px 6px 12px 0px rgba(0,0,0,0.2);
 }
 
 .desplegable {
@@ -643,7 +650,7 @@ section:after {
 
 .desplegable:hover .contingut {
     width: 300px;
-    height: 200px;
+    height: 220px;
     display: block;
     margin-top: 20px;
     margin-left: -20px;
@@ -652,6 +659,7 @@ section:after {
 .desplegable:hover .contingut a {
     color: #575756;
     display: block;
+    padding: 20px 0 0 20px;
 }
 
 .desplegable:hover .contingut a:hover {
