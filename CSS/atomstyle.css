@@ -598,6 +598,8 @@ section:after {
   background-color: #FCFCFC;
   box-shadow: 0px 2px 4px 0px #C6C6C6;
   margin-bottom: 3rem;
+  color: #575756;
+  font-family: 'vaud_bold';
   overflow: hidden;
 }
 
@@ -606,6 +608,7 @@ section:after {
   height: 50px;
   background: url(../img/urv_logo.svg) center no-repeat;
   margin-left: 15px;
+  margin-right: 30px;
   margin-top: 5px;
   display: inline-block;
 }
@@ -613,31 +616,46 @@ section:after {
 .menulist {
   display: inline-block;
   vertical-align: top;
-  padding: 15px 0 0 15px;
+  height: 60px;
 }
 
 .menulist li {
   display: inline-block;
+  vertical-align: middle;
 }
 
 .desplegable {
-
+  padding: 20px 20px 0 20px;
+  height: 60px;
 }
 
-.dropbutton {
-
+.desplegable:hover {
+  color: #DA2D26;
+  box-shadow: inset 0px 6px 12px 0px rgba(0,0,0,0.2);
 }
 
 .contingut {
   display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 .desplegable:hover .contingut {
+    width: 300px;
+    height: 200px;
     display: block;
+    margin-top: 20px;
+    margin-left: -20px;
+}
+
+.desplegable:hover .contingut a {
+    color: #575756;
+    display: block;
+}
+
+.desplegable:hover .contingut a:hover {
+    color: #DA2D26;
 }
 
 /* Footer ----------------------------------------------------*/
